@@ -1,0 +1,9 @@
+#about {
+  font-family: "Euclid Circular A", sans-serif;
+  background-color: var(--sindi-background);
+  margin-top: -8px;
+}
+
+#about p {
+  text-align: justify;
+}

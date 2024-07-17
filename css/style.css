@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  --sindi-background: rgba(12, 10, 29, 1);
+}
+
+.navbar {
+  background-color: rgba(12, 10, 29, 0.8);
+  font-family: "Euclid Circular A", sans-serif;
+}
+
+.custom-hr {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, #0578eb, #0f62ab, #04417e);
+  margin: 0;
+  position: relative;
+}
+
+.custom-hr::before {
+  content: "";
+  display: block;
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(to right, #0578eb, #0f62ab, #04417e);
+  position: absolute;
+  top: -5px;
+  left: 0;
+  border-radius: 5px;
+}
