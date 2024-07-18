@@ -1,4 +1,4 @@
-// get layous/header.html
+// get layouts/header.html
 fetch("layouts/header.html")
   .then((response) => {
     if (!response.ok) {
