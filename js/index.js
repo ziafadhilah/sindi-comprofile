@@ -58,6 +58,21 @@ fetch("pages/jennifer-home.html")
     console.error("There was a problem with the fetch operation:", error);
   });
 
+//get how-to.html
+fetch("pages/how-to.html")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Network response was not ok " + response.statusText);
+    }
+    return response.text();
+  })
+  .then((data) => {
+    document.getElementById("howToContent").innerHTML = data;
+  })
+  .catch((error) => {
+    console.error("There was a problem with the fetch operation:", error);
+  });
+
 // Event listener untuk gambar yg mengikuti cursor
 document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("mousemove", function (e) {
