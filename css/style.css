@@ -81,6 +81,10 @@ body {
   filter: blur(10px);
 }
 
+ul .dropdown-menu {
+  background-color: var(--sindi-background);
+}
+
 #footer {
   background-color: var(--sindi-background);
 }

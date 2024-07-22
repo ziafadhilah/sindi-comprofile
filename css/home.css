@@ -18,17 +18,17 @@
 }
 
 .home-section::before {
-  background-image: url("../assets/background-1.png");
+  background-image: url("/assets/background-1.png");
   background-size: cover;
   background-position: center;
   filter: blur(4px);
 }
 
 .home-section::after {
-  background-image: url("../assets/background-2.png");
+  background-image: url("/assets/background-2.png");
   background-size: cover;
   background-position: center;
-  opacity: 0.5;
+  opacity: 0.4;
   transition: transform 0.1s;
   /* filter: blur(2px); */
 }
